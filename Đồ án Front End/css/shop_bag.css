@@ -1,0 +1,331 @@
+* {
+
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Lato", "san-serif";
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.content {
+    width: 1250px;
+    margin-left: 80px;
+    padding-left: 45px;
+
+}
+
+h1 {
+    margin-bottom: 100px;
+}
+
+
+
+/*-------------------------------------------------------*/
+/*----------------Chỉnh phần content trái----------------*/
+/*-------------------------------------------------------*/
+
+.content-left {
+    float: left;
+    width: 650px;
+}
+
+.remove {
+    color: #000;
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    margin-right: 30px;
+}
+
+.text-content {
+    color: #000;
+    margin: 0px 72px 0px 0px;
+
+}
+
+.input-text {
+    width: 40px;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #777;
+    text-align: center;
+}
+
+.list-product-content-left {
+    padding: 0;
+}
+
+
+
+.list-product-content-left li {
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.list-product-content-left li bdi {
+    color: #777;
+}
+
+.button-in-text {
+    margin-left: 40px;
+    margin-right: 280px;
+    color: #000;
+}
+
+.button-in-text:hover {
+    transition: 0.3s;
+    color: brown;
+}
+
+.text {
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.list-product-content-left hr {
+    margin-bottom: 50px;
+}
+
+.third-content-left h4,
+span {
+    color: #000;
+}
+
+.third-content-left h4:hover {
+    transition: 0.3s;
+    color: brown;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------*/
+/*----------------Chỉnh phần content phải----------------*/
+/*-------------------------------------------------------*/
+
+
+.content-right {
+    float: right;
+    width: 497px;
+}
+
+
+.first-content-right {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    margin-bottom: 25px;
+}
+
+.second-content-right th {
+    float: left;
+    width: 300px;
+}
+
+.second-content-right-right {
+    float: right;
+    width: 390px;
+    color: #777;
+
+}
+
+.woocommerce-shipping-destination {
+    width: 170px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+#shipping_method li {
+    margin-bottom: 15px;
+    margin-left: 38px;
+}
+
+#shipping_method {
+    padding: 0;
+}
+
+.shipping-calculator-button {
+    color: #777;
+    margin-left: 45px;
+
+}
+
+.third-content-right {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+.third-content-right {
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.third-content-right bdi {
+    font-size: 30px;
+}
+
+.four-content-right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.four-content-right a:hover {
+    transition: 0.5s;
+    color: brown;
+}
+
+
+.four-content-right {
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 317px;
+    margin-bottom: 30px;
+}
+
+.five-content-right a {
+    margin-left: 115px;
+    color: #000;
+
+}
+
+
+.footer-content-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.service {
+
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 70px;
+    margin-left: 0px;
+
+}
+
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần footer------------------*/
+/*----------------------------------------------------*/
+
+/*Chỉnh phần service trong footer*/
+.service {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 70px;
+}
+
+.note {
+    margin-top: 5px;
+    margin-left: 25px;
+    opacity: 0.8;
+    /*độ mờ chữ*/
+}
+
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần footer-Content-1----------*/
+/*----------------------------------------------------*/
+
+
+
+.search-product {
+    float: left;
+}
+
+.search-product input,
+.search-product button {
+    padding: 10px;
+    /* Đặt khoảng cách (padding) cho các phần tử */
+    font-size: inherit;
+    /* Kế thừa kích thước phông chữ từ .search-product */
+}
+
+.search-product button {
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+
+}
+
+.footer-content-1 {
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.columns a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.7;
+}
+
+.columns a:hover {
+    transition: 0.3s;
+    color: gray;
+}
+
+.columns li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.text-columns {
+    margin-bottom: 20px
+}
+
+.columns-footer {
+    display: grid;
+    grid-template-columns: 174px 174px 174px;
+    float: right;
+    width: 600px;
+
+}
+
+.columns-footer ul {
+    padding: 0;
+}
+
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần footer-Content-2--------*/
+/*----------------------------------------------------*/
+
+
+
+.list-items a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #000000;
+}
+
+.list-items:hover a {
+    transition: 0.5s;
+    color: gray;
+}
+
+.footer-text {
+    margin-top: 20px;
+
+    margin-bottom: 100px;
+    color: #777777;
+}

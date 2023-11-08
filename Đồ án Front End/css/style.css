@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 11px;
+    font-family: "Lato","san-serif";
+}
+
+
+.nb-fourth-img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.wpb_wrapper {
+    text-align: center;
+}
+
+.discover-button{
+    color: #fff;
+    background-color: #2a2a2a;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.discover-button:hover{
+    transition: all.2s;
+    background-color: black;
+}
+
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần footer------------------*/
+/*----------------------------------------------------*/
+
+/*Chỉnh phần service trong footer*/
+.service{
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 70px;   
+    margin-left: 130px;
+}
+
+.note{
+    margin-top: 5px;
+    margin-left: 25px;
+    opacity: 0.8; /*độ mờ chữ*/
+}
+
+
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần footer-Content-1----------*/
+/*----------------------------------------------------*/
+
+.footer-content-1{
+    margin-left: 130px;
+}
+
+.search-product{   
+    float: left;
+}
+
+.search-product input, .search-product button {
+    padding: 10px; /* Đặt khoảng cách (padding) cho các phần tử */
+    font-size: inherit; /* Kế thừa kích thước phông chữ từ .search-product */
+  }
+
+.search-product button{
+    border: none;cursor: pointer;
+    background-color: #fff;
+    margin-left: 150px;
+}
+
+.footer-content-1{
+    margin-bottom: 300px;
+    margin-top: 50px;
+}
+
+.columns a{
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.7;
+}
+
+.columns a:hover{
+    transition: 0.3s;
+    color: gray;
+}
+
+.columns li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.text-columns{
+    margin-bottom: 20px
+}
+
+.columns-footer{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    float: right;
+    width: 600px;
+}
+
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần footer-Content-2--------*/
+/*----------------------------------------------------*/
+
+.list-items{
+    margin-left: 130px;
+}
+
+.list-items a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #000000;
+}
+
+.list-items:hover a{
+    transition: 0.5s;
+    color: gray;
+}
+
+.footer-text{
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+    color: #777777;
+}
+
+
+  
+
+
+  
