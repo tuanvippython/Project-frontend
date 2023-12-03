@@ -6,7 +6,7 @@
 
 html {
     font-size: 11px;
-    font-family: "Lato","san-serif";
+    font-family: "Lato", "san-serif";
 }
 
 
@@ -21,7 +21,7 @@ html {
     text-align: center;
 }
 
-.discover-button{
+.discover-button {
     color: #fff;
     background-color: #2a2a2a;
     font-size: 14px;
@@ -32,7 +32,7 @@ html {
     text-decoration: none;
 }
 
-.discover-button:hover{
+.discover-button:hover {
     transition: all.2s;
     background-color: black;
 }
@@ -42,18 +42,19 @@ html {
 /*----------------------------------------------------*/
 
 /*Chỉnh phần service trong footer*/
-.service{
+.service {
     font-size: 15px;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
-    column-gap: 70px;   
+    column-gap: 70px;
     margin-left: 130px;
 }
 
-.note{
+.note {
     margin-top: 5px;
     margin-left: 25px;
-    opacity: 0.8; /*độ mờ chữ*/
+    opacity: 0.8;
+    /*độ mờ chữ*/
 }
 
 
@@ -61,51 +62,55 @@ html {
 /*-----------------Chỉnh Phần footer-Content-1----------*/
 /*----------------------------------------------------*/
 
-.footer-content-1{
+.footer-content-1 {
     margin-left: 130px;
 }
 
-.search-product{   
+.search-product {
     float: left;
 }
 
-.search-product input, .search-product button {
-    padding: 10px; /* Đặt khoảng cách (padding) cho các phần tử */
-    font-size: inherit; /* Kế thừa kích thước phông chữ từ .search-product */
-  }
+.search-product input,
+.search-product button {
+    padding: 10px;
+    /* Đặt khoảng cách (padding) cho các phần tử */
+    font-size: inherit;
+    /* Kế thừa kích thước phông chữ từ .search-product */
+}
 
-.search-product button{
-    border: none;cursor: pointer;
+.search-product button {
+    border: none;
+    cursor: pointer;
     background-color: #fff;
     margin-left: 150px;
 }
 
-.footer-content-1{
+.footer-content-1 {
     margin-bottom: 300px;
     margin-top: 50px;
 }
 
-.columns a{
+.columns a {
     text-decoration: none;
     color: inherit;
     opacity: 0.7;
 }
 
-.columns a:hover{
+.columns a:hover {
     transition: 0.3s;
     color: gray;
 }
 
-.columns li{
+.columns li {
     list-style-type: none;
     margin-bottom: 15px;
 }
 
-.text-columns{
+.text-columns {
     margin-bottom: 20px
 }
 
-.columns-footer{
+.columns-footer {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     float: right;
@@ -116,22 +121,22 @@ html {
 /*-----------------Chỉnh Phần footer-Content-2--------*/
 /*----------------------------------------------------*/
 
-.list-items{
+.list-items {
     margin-left: 130px;
 }
 
-.list-items a{
+.list-items a {
     text-decoration: none;
     margin-right: 30px;
     color: #000000;
 }
 
-.list-items:hover a{
+.list-items:hover a {
     transition: 0.5s;
     color: gray;
 }
 
-.footer-text{
+.footer-text {
     margin-top: 20px;
     margin-left: 130px;
     margin-bottom: 100px;
@@ -139,7 +144,119 @@ html {
 }
 
 
-  
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần Detail------------------*/
+/*----------------------------------------------------*/
 
 
-  
+
+.detail-1 {
+    margin-bottom: 100px;
+
+}
+
+.detail-2 {
+    display: flex;
+    background-color: #DDDD;
+    margin-bottom: 100px;
+}
+
+
+.detail-2-left {
+
+    width: 200px;
+    margin-left: 120px;
+}
+
+.detail-2-left a {
+    padding-bottom: 7px;
+    text-decoration: none;
+    border-bottom: solid 2px;
+}
+
+.p1 {
+    opacity: 0.7;
+    padding-bottom: 40px;
+    font-size: 12px;
+}
+
+.detail-2-right {
+
+    width: 850px;
+}
+
+
+
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần Detail-3------------------*/
+/*----------------------------------------------------*/
+
+.detail-3 {
+    margin-bottom: 100px;
+}
+
+.list-product {
+    list-style: none;
+    justify-content: center;
+}
+
+.list-product img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+
+
+.list-product h2,
+bdi {
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+.list-product a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.list-product a:hover {
+    transition: all.3s;
+    color: brown;
+    cursor: pointer;
+}
+
+.list-product {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    grid-column-gap: 30px;
+}
+
+/*----------------------------------------------------*/
+/*-----------------Chỉnh Phần Detail-4----------------*/
+/*----------------------------------------------------*/
+
+.detail-4 {
+    display: flex;
+    justify-content: center;
+    background-color: #DDDD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.detail-4 h3 {
+    margin-bottom: 20px;
+}
+
+.detail-4-right {
+    width: 200px;
+}
+
+.detail-4-right a{
+    padding-bottom: 7px;
+    text-decoration: none;
+    border-bottom: solid 2px;
+}
+
+.detail-5{
+    margin-bottom: 100px;
+}

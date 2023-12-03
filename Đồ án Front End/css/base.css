@@ -2,8 +2,8 @@
     --black-color: #000000;
     --opacity-color: #777777;
     --hover-color: #C4B583;
-    --white-color: #ccc ;
-    --opacity2-color:#d9d9d9;
+    --white-color: #ccc;
+    --opacity2-color: #d9d9d9;
 }
 
 * {
@@ -17,13 +17,9 @@ html {
     box-sizing: border-box;
     max-width: 100%;
 }
-.grid80 {
-    position: absolute;
-    max-width: 100%;
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    margin: 0 auto;
+
+.bold {
+    font-weight: 600;
 }
 
 /* animation */
@@ -38,21 +34,24 @@ html {
 
     }
 }
+
 @keyframes slideFromTop {
     from {
-      transform: translateY(0);
+        transform: translateY(0);
     }
+
     to {
-      transform: translateY(20%);
+        transform: translateY(20%);
     }
 }
-  
+
 @keyframes slideFromLeft {
     from {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
+
     to {
-      transform: translateX(0);
+        transform: translateX(0);
     }
 }
 
@@ -64,5 +63,49 @@ html {
 
     to {
         transform: scale(var(--growth-to));
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.99);
+        /* Thu nhỏ lại 1% */
+    }
+}
+
+
+
+@keyframes slideInFromTopLeft {
+    0% {
+        transform: translate(-100%, -100%);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes colorChange {
+    from {
+        background-color: transparent;
+    }
+
+    to {
+        background-color: var(--hover-color);
+        /* Use your desired color with an alpha value for transparency */
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
     }
 }

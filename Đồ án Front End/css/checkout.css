@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+   
+    font-family: "Lato", "san-serif";
+}
+
+/*---------------------------------------------*/
+/*------------Chỉnh phần check-out-1-----------*/
+/*---------------------------------------------*/
+
+
+
+.check-out-1{
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   font-size: 15px;
+}
+
+.check-out-2{
+    display: flex;  
+}
+
+.check-out-2-left{
+    margin-left: 130px;
+    font-size: 15px;
+}
+
+.check-out-2-right{
+    margin-left: 100px;
+}
+
+
+
+.form-control{
+    background-color: #DDD;
+    border-radius: 2px;
+    outline: none;
+    width: 500px;
+    height: 20px;
+    border: 1px solid gray;
+}
+
+.list-check-out-product .list-check-out{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #DDD; 
+    width: 350px;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+.product-button {
+    display: flex;
+    color: #000;
+    text-decoration: none;
+}
+
+.product-button h4{
+    margin-right: 70px;
+}
+
+.input-group{
+    display: flex;
+    margin-top: 20px;
+    border: solid 1px;
+}
+
+.input-group .form-control-right{
+    background-color: #fff;
+    border: none;
+    padding-top: 8px;
+    padding-left: 10px;  
+}
+
+.form-control-right{
+    background-color: #DDD;
+    border-radius: 2px;
+    outline: none;
+    width: 280px;
+    height: 20px;
+    border: 1px solid gray;
+}
+
+.input-group-append button{
+    padding: 5px 5px 5px 7px ;
+    color: #fff;
+    background-color: grey;
+    border: none;
+}
+
+.button-last{
+    width: 500px;
+    color: #fff;
+    background-color: #03adfc;
+    border: 1px solid #DDD;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.button-last:hover{
+    transition: 0.3s;
+    color: #DDD;
+}
+
+
+
+
+
+
+    
+
